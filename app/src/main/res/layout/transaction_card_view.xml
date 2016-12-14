@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_debt_transaction"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="#C5CAE9"
+    android:foreground="?attr/selectableItemBackground"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/transaction_amount"
+            android:textColor="@color/title"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColorHint="#000000" />
+
+        <TextView
+            android:id="@+id/transaction_date"
+            android:layout_below="@id/transaction_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:textStyle="bold"
+            android:textColor="#b0b0b0"
+            android:textColorHint="#e9e9e9"/>
+
+        <TextView
+            android:id="@+id/transaction_description"
+            android:layout_below="@id/transaction_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#e9e9e9" />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

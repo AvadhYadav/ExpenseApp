@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_format_list_bulleted"
+        title="Home"/>
+    <tab
+        id="@+id/tab_debts"
+        icon="@drawable/ic_format_list_bulleted"
+        title="Debts" />
+    <tab
+        id="@+id/tab_notifications"
+        icon="@drawable/ic_sms_failed_24dp"
+        title="Notifications" />
+    <tab
+        id="@+id/tab_stats"
+        icon="@drawable/ic_trending_up_24dp"
+        title="Statistics" />
+
+</tabs>

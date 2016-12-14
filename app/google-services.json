@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654934473266",
+    "project_id": "debtapp-9cc27"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654934473266:android:cb010620a8205611",
+        "android_client_info": {
+          "package_name": "com.example.vasu.expense_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654934473266-adkjhum37r8op2anptdqshhrtvdn4ij3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vasu.expense_manager",
+            "certificate_hash": "8EC40FBA18756D81CC8EC91F04BB0E0A213F637D"
+          }
+        },
+        {
+          "client_id": "654934473266-phv32b3h1m2h2rbukli6cp351uqahrhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLHcm9W8bqouca_WWBJJ2eVYGIEH-ZCnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

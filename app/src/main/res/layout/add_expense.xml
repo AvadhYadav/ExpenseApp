@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="#C5CAE9"
+        android:foreground="?attr/selectableItemBackground"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:gravity="center"
+            android:id="@+id/addDate"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Amount"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/task_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Description (optional)" />
+
+</LinearLayout>
